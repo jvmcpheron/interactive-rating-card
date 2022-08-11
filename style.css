@@ -61,6 +61,7 @@ p{
 .rater-btn:hover{
     background-color: hsl(217, 7%, 47%);
     color: hsl(0, 0%, 100%);
+    cursor:pointer;
 }
 
 .rater-btn:active{
@@ -81,6 +82,7 @@ p{
 #sub-btn:hover{
     color: hsl(25, 97%, 53%);
     background-color: white;
+    cursor:pointer;
 }
 
 @media only screen and (max-width: 500px){
