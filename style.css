@@ -1,0 +1,95 @@
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass';
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+
+#circle{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 25%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rating-card{
+    border-radius: 30px;
+    
+    background-color: hsl(213, 19%, 18%);
+    width: 365px;
+    padding: 40px;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.rating{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rater-btn{
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 25%);
+    border-radius: 25px;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 9px;
+    margin-right: 9px;
+    
+}
+
+.rater-btn:hover{
+    background-color: hsl(217, 7%, 47%);
+    color: hsl(0, 0%, 100%);
+}
+
+.rater-btn:active{
+    background-color: hsl(25, 97%, 53%);
+}
+
+#sub-btn{
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 2px;
+}
+
+#sub-btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+@media only screen and (max-width: 500px){
+    #rating-card{
+        width: 297px;
+        padding: 25px;
+    }
+    .rater-btn{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
