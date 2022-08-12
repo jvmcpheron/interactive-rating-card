@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./rating-card.png)
 
 
 ### Links
@@ -28,12 +28,11 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- JavaScript
 
 ### What I learned
 
-
+I learned how to make rating buttons, and this is actually my first time messing around with styling in JavaScript.
 
 
 ## Author
